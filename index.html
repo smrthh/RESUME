@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- ========== ION ICON ==========-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ========== FAVICON =========== -->
+        <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body > 
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo"> S A M </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item"> 
+                            <a href="#home" class="nav__link active-link">
+                               <ion-icon name="home-outline" class="nav__icon"></ion-icon>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link ">
+                                <ion-icon name="person-outline" class="nav__icon"></ion-icon>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <ion-icon name="book-outline" class="nav__icon"></ion-icon>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <ion-icon name="receipt-outline" class="nav__icon"></ion-icon>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <ion-icon name="briefcase-outline" class="nav__icon"></ion-icon>Projects
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <ion-icon name="trophy-outline" class="nav__icon" ></ion-icon>certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#constributions" class="nav__link">
+                                <ion-icon name="log-in-outline" class="nav__icon"></ion-icon>Constributions
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <ion-icon name="grid-outline"></ion-icon>
+                </div>
+            </nav>
+            
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+
+                            <div class="home__data bd-grid">
+                                <!-- <img src="assets/img/profile.jpg" alt="" class="home__img" /> -->
+
+                                <h1 class="home-title"> SAMARTH <b> HOLKAR </b></h1>
+                                <h3 class="home-profession">Frontend Enthusiast </h3>
+
+                              <!-- Button to donload your cv saved in the pdf folder . Available for desktop. -->
+                              <div>
+                                <a download="SamResume" href="assets/pdf/SamResume.pdf" class="home__button-movil">Download</a>
+                              </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+    
+                                <a href="https://www.google.com/maps/place/Pune,+Maharashtra/@18.5467236,73.5739965,10.75z/data=!4m14!1m7!3m6!1s0x3bc2bbae9a30637b:0xeedcacb84f858053!2sYour+Address+Property+Consultants!8m2!3d18.6011952!4d73.7456265!16s%2Fg%2F11n_m763h8!3m5!1s0x3bc2bf2e67461101:0x828d43bf9d9ee343!8m2!3d18.5204303!4d73.8567437!16zL20vMDE1eTJx?entry=ttu" class="home__information">
+                                <ion-icon name="call-outline" class="home-icon"></ion-icon></ion-icon> Pune-412306 , Maharashtra , INDIA
+                                </a>
+                                
+
+                              <a href="mailto:samarthholkar700@gmail.com" class="home__information">
+                                <ion-icon name="mail-outline" class="home-icon"></ion-icon> samarthholkar700@gmail.com
+                              </a>
+
+                              <a href="tel:+91 9307291628" class="home__information">
+                                <ion-icon name="call-outline" class="home-icon"></ion-icon> +91 9307291628
+                              </a>
+
+                            </div>
+
+                        </div> 
+                        <!-- Theme change button -->
+                        <ion-icon name="contrast-outline" id="theme-button" class="change-theme"></ion-icon>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <ion-icon name="download-outline" title="Generate-PDF" id="resume-button" class="generate-pdf" ></ion-icon>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                       <h2 class="section-title">SOCIAL</h2> 
+
+                       <div class="social__container bd-grid">
+
+                        <a href="https://www.linkedin.com/in/smrthholkar-webdev-clqn6r8" target="_blank" class="social__link">
+                            <ion-icon name="logo-linkedin"></ion-icon>Linkedin/samarthholkar
+                        </a>
+
+                        <a href="https://github.com/smrthh" target="_blank" class="social__link">
+                            <ion-icon name="logo-github"></ion-icon> github/smrthh.com
+                        </a>
+
+                        <a href="https://www.instagram.com/smrth.3?r=nametag" target="_blank" class="social__link">
+                            <ion-icon name="logo-instagram"></ion-icon> Insta/smrth.3
+                        </a>
+
+                       </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+
+                        <h2 class="section-title">PROFILE</h2>
+
+                        <p class="profile__description">
+                            Passionate and detail-oriented Frontend Enthusiast with a strong foundation in web development and a keen eye for creating visually appealing and user-friendly interfaces. With a deep understanding of HTML, CSS, JavaScript, and Frontend libraries and Frameworks , I am dedicated to crafting seamless and engaging web experiences that leave a lasting impression.
+                        </p>
+                        
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">EDUCATION</h2>
+                       <div class="education__container bd-grid">
+                        <div class="education__content">
+
+                            <!-- 1  -->
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                                <span class="education__rounder bottom"></span>
+                            </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="eduacation-title">BSC SCIENCE (Pursuing) </h3>
+                                    <span class="education__studies">Pune University</span>
+                                    <span class="education__year">2022 - Present</span>
+                                </div>
+
+                                
+                            
+                        </div>
+                       </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">SKILLS</h2>
+
+                        <div class="skills-content bd-grid">
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>HTML
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>CSS
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>Javascript
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>Sass
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>Tailwind.css
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>React
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>Next.Js
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>Firebase
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>Node.Js
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills_circle"></span>MongoDB
+                                </li>
+                            </ul>
+
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== PROJECTS ==========-->
+                    <section class="projects section" id="projects">
+                        <h2 class="section-title">PROJETCS</h2>
+
+                        <div class="projects__container bd-grid">
+
+                            <div class="projetcs-content">
+                                <div class="projects__time">
+                                    <span class="projects__rounder"></span>
+                                    <span class="projects__line"></span>
+                                </div>
+
+                                <div class="projects__data bd-grid">
+                                    <h3 class="projects__title">PIXSTOCK</h3>
+                                    <span class="projects__text">HTML | CSS | JS </span>
+                                    <p class="projects__description">Enormous scrolling and any custom color gradietion this app have builded up using pixels API this is the scalable Projects I've ever done with stunning UI , It can be used for watching Pictures and videos.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="projetcs-content">
+                                <div class="projects__time">
+                                    <span class="projects__rounder"></span>
+                                    <span class="projects__line"></span>
+                                </div>
+
+                                <div class="projects__data bd-grid">
+                                    <h3 class="projects__title">TVFLIX </h3>
+                                    <span class="projects__text">REACT | TAILWIND | API </span>
+                                    <p class="projects__description">This app has a ability to show any movies it's similiar to Netflix. The stunning UI and UX makes intresting to use and watch any movies and web series . .</p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="projetcs-content">
+                                <div class="projects__time">
+                                    <span class="projects__rounder"></span>
+                                    <!-- <span class="projects__line"></span> -->
+                                </div>
+
+                                <div class="projects__data bd-grid">
+                                    <h3 class="projects__title">Recipe App </h3>
+                                    <span class="projects__text">NEXT | API | NODE.JS | SQL </span>
+                                    <p class="projects__description">The app builded with vanilla JavaScript and Recipe Search API , The dark and light theme customization and this app is fully responsive it can be look great on any devices.</p>
+                                </div>
+
+                                
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">CERTIFICATES</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">MERN STACK DEV</h3>
+                                <p class="certificate__description">Enrolled in MERN stack internship cohort program where I've been learned Javascript and core JavaScript Architecture
+                                    (ROAD TO CODE) </p>
+                            </div>
+                        </div>
+
+                        
+                            <div class="certificate__content">
+                             <h3 class="certificate__title">GENEARATIVE AI</h3>
+                                <p class="certificate__description">Through hands-on projects, I have developed the ability to generate human-like text, create realistic images, and explore the capabilities of AI in generating diverse and engaging content.
+                                    (LINKEDIN) </p>
+                            </div>
+                        
+                        
+
+                    </section>
+
+                    <!--==========  CONSTRIBUTIONS ==========-->
+                    <section class="Constributions section" id="constributions">
+                        <h2 class="section-title">CONSTRIBUTIONS</h2>
+
+                        <div class="constri__container bd-grid">
+
+                            <div class="constri-content bd-grid">
+                                <span class="constri__subtitle">Open Source</span>
+                                <h3 class="constri-title">GITHUB 2.O </h3>
+                                <ul class="constri-contact">
+                                    <li>Free and Functional</li>
+                                    <!-- <li>https://github2.0.com</li> -->
+                                </ul>
+                            </div>
+
+                            <div class="constri-content bd-grid">
+                                <span class="constri__subtitle">Open Source</span>
+                                <h3 class="constri-title">Musily</h3>
+                                <ul class="constri-contact">
+                                    <li> Music App on Play Store </li>
+                                    <!-- <li>https://musilio.com</li> -->
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">LANGUAGES</h2>
+
+                        <div class="lang__container">
+                            <div class="lang__content bd-grid">
+                                <li class="lang-name">
+                                <span class="lang-circle"></span>English
+                                </li>
+
+                                <li class="lang-name">
+                                    <span class="lang-circle"></span>Hindi
+
+                                    <li class="lang-name">
+                                        <span class="lang-circle"></span>Marathi
+                                    </li>
+
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">INTERESTS </h2>
+
+                            <div class="int-container bd-grid">
+                                <div class="int-content">
+                                    <ion-icon name="headset-outline"></ion-icon>                                    <span class="int__name">Music</span>   
+                                </div>
+
+                                <div class="int-content">
+                                    <ion-icon name="fast-food-outline"></ion-icon>
+                                    <span class="int__name">Food</span>   
+                                </div>
+
+                                <div class="int-content">
+                                    <ion-icon name="book-outline"></ion-icon>
+                                    <span class="int__name">Read</span>   
+                                </div>
+
+                                <div class="int-content">
+                                    <ion-icon name="american-football-outline"></ion-icon>
+                                    <span class="int__name">Sport</span>   
+                                </div>
+
+                            </div>
+                    </section>
+
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#home" class="scrollTop" id="scroll-top">
+            <ion-icon name="chevron-up-circle-outline" class="scrollTop-icon"></ion-icon>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
